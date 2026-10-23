@@ -1,0 +1,317 @@
+{
+  "users": [
+    {
+      "id": "usr_owner_1",
+      "email": "alex.owner@reviewlens.ai",
+      "password": "owner123",
+      "name": "Alex Rivera",
+      "role": "owner",
+      "phone": "+1 (555) 234-5678",
+      "businessId": "biz_1",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+      "createdAt": "2026-01-15T09:00:00Z"
+    },
+    {
+      "id": "usr_owner_2",
+      "email": "sarah.owner@reviewlens.ai",
+      "password": "owner123",
+      "name": "Sarah Jenkins",
+      "role": "owner",
+      "phone": "+1 (555) 345-6789",
+      "businessId": "biz_2",
+      "avatar": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=150&auto=format&fit=crop&q=80",
+      "createdAt": "2026-02-10T11:30:00Z"
+    },
+    {
+      "id": "usr_owner_3",
+      "email": "david.owner@reviewlens.ai",
+      "password": "owner123",
+      "name": "Dr. David Kim",
+      "role": "owner",
+      "phone": "+1 (555) 567-8901",
+      "businessId": "biz_3",
+      "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=150&auto=format&fit=crop&q=80",
+      "createdAt": "2026-03-01T08:15:00Z"
+    },
+    {
+      "id": "usr_cust_1",
+      "email": "elena.customer@gmail.com",
+      "password": "customer123",
+      "name": "Elena Rostova",
+      "role": "customer",
+      "phone": "+1 (555) 678-1234",
+      "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=150&auto=format&fit=crop&q=80",
+      "createdAt": "2026-02-15T14:20:00Z"
+    },
+    {
+      "id": "usr_cust_2",
+      "email": "marcus.customer@gmail.com",
+      "password": "customer123",
+      "name": "Marcus Vance",
+      "role": "customer",
+      "phone": "+1 (555) 789-2345",
+      "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&auto=format&fit=crop&q=80",
+      "createdAt": "2026-02-20T16:45:00Z"
+    },
+    {
+      "id": "usr_cust_3",
+      "email": "priya.customer@gmail.com",
+      "password": "customer123",
+      "name": "Priya Patel",
+      "role": "customer",
+      "phone": "+1 (555) 890-3456",
+      "avatar": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=150&auto=format&fit=crop&q=80",
+      "createdAt": "2026-03-05T10:00:00Z"
+    },
+    {
+      "id": "usr_customer_mvcevzmi",
+      "email": "harshini.customer@gmail.com",
+      "password": "1234567",
+      "name": "Harshini",
+      "role": "customer",
+      "phone": "6383890655",
+      "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=150&auto=format&fit=crop&q=80",
+      "createdAt": "2026-10-17T13:07:43.770Z"
+    }
+  ],
+  "businesses": [
+    {
+      "id": "biz_1",
+      "ownerId": "usr_owner_1",
+      "name": "Apex Bistro & Cafe",
+      "category": "Food & Dining",
+      "description": "Artisanal coffee, farm-to-table breakfast, and contemporary bistro dining in downtown.",
+      "address": "742 Evergreen Terrace, Downtown District",
+      "phone": "+1 (555) 890-1234",
+      "email": "contact@apexbistro.com",
+      "website": "https://apexbistro.reviewlens.app",
+      "hours": "Mon-Sun: 7:00 AM - 10:00 PM",
+      "rating": 4.8,
+      "reviewCount": 4,
+      "image": "https://images.unsplash.com/photo-1554118811-1e0d58224f24?w=600&auto=format&fit=crop&q=80"
+    },
+    {
+      "id": "biz_2",
+      "ownerId": "usr_owner_2",
+      "name": "TechPulse Electronics & Repair",
+      "category": "Electronics & Tech",
+      "description": "Certified diagnostics, smartphone and laptop hardware repair, and smart home equipment sales.",
+      "address": "108 Innovation Way, Tech Park Suite 4",
+      "phone": "+1 (555) 456-7890",
+      "email": "support@techpulse.com",
+      "website": "https://techpulse.reviewlens.app",
+      "hours": "Mon-Fri: 9:00 AM - 7:00 PM, Sat: 10:00 AM - 5:00 PM",
+      "rating": 4.2,
+      "reviewCount": 3,
+      "image": "https://images.unsplash.com/photo-1597872200969-2b65d56bd16b?w=600&auto=format&fit=crop&q=80"
+    },
+    {
+      "id": "biz_3",
+      "ownerId": "usr_owner_3",
+      "name": "Metro Wellness & Dental Clinic",
+      "category": "Healthcare & Wellness",
+      "description": "Comprehensive family dental treatments, oral hygiene, digital radiography, and cosmetic smile care.",
+      "address": "450 Health Parkway, Medical Plaza Suite 200",
+      "phone": "+1 (555) 678-9012",
+      "email": "info@metrowellness.com",
+      "website": "https://metrowellness.reviewlens.app",
+      "hours": "Mon-Sat: 8:00 AM - 6:00 PM",
+      "rating": 4.9,
+      "reviewCount": 3,
+      "image": "https://images.unsplash.com/photo-1629909613654-28e377c37b09?w=600&auto=format&fit=crop&q=80"
+    }
+  ],
+  "reviews": [
+    {
+      "id": "rev_101",
+      "businessId": "biz_1",
+      "businessName": "Apex Bistro & Cafe",
+      "customerId": "usr_cust_1",
+      "customerName": "Elena Rostova",
+      "customerAvatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=150&auto=format&fit=crop&q=80",
+      "rating": 5,
+      "title": "Outstanding avocado sourdough & lavender latte!",
+      "comment": "The ambiance is serene and the baristas are genuinely courteous. Loved the farm-fresh ingredients and fast Wi-Fi. Will definitely be a regular here.",
+      "sentiment": "Positive",
+      "status": "Resolved",
+      "ownerReply": {
+        "text": "Thank you so much Elena! We take great pride in our locally sourced ingredients. Looking forward to hosting you again soon!",
+        "repliedAt": "2026-03-12T11:00:00Z"
+      },
+      "createdAt": "2026-03-11T14:30:00Z"
+    },
+    {
+      "id": "rev_102",
+      "businessId": "biz_1",
+      "businessName": "Apex Bistro & Cafe",
+      "customerId": "usr_cust_2",
+      "customerName": "Marcus Vance",
+      "customerAvatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&auto=format&fit=crop&q=80",
+      "rating": 5,
+      "title": "Best brunch spot downtown",
+      "comment": "Had the truffle scrambled eggs and Belgian waffles with maple bacon. Everything arrived piping hot within 10 minutes despite the weekend rush.",
+      "sentiment": "Positive",
+      "status": "Resolved",
+      "ownerReply": {
+        "text": "Glad our kitchen team kept the tempo up during brunch rush! Thank you Marcus!",
+        "repliedAt": "2026-03-16T15:20:00Z"
+      },
+      "createdAt": "2026-03-15T10:15:00Z"
+    },
+    {
+      "id": "rev_103",
+      "businessId": "biz_1",
+      "businessName": "Apex Bistro & Cafe",
+      "customerId": "usr_cust_3",
+      "customerName": "Priya Patel",
+      "customerAvatar": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=150&auto=format&fit=crop&q=80",
+      "rating": 4,
+      "title": "Delicious pastries, slight wait for seating",
+      "comment": "The almond croissants are divine. Only minor drawback was a 15-minute table wait, but the outdoor patio heaters made it comfortable.",
+      "sentiment": "Positive",
+      "status": "In Progress",
+      "ownerReply": null,
+      "createdAt": "2026-03-20T16:00:00Z"
+    },
+    {
+      "id": "rev_104",
+      "businessId": "biz_1",
+      "businessName": "Apex Bistro & Cafe",
+      "customerId": "usr_cust_1",
+      "customerName": "Elena Rostova",
+      "customerAvatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=150&auto=format&fit=crop&q=80",
+      "rating": 5,
+      "title": "Evening bistro dinner experience was sublime",
+      "comment": "Came back for dinner with colleagues. The pan-seared sea bass and artisanal mocktails were Michelin-level. 5 stars all the way!",
+      "sentiment": "Positive",
+      "status": "New",
+      "ownerReply": null,
+      "createdAt": "2026-04-02T19:40:00Z"
+    },
+    {
+      "id": "rev_201",
+      "businessId": "biz_2",
+      "businessName": "TechPulse Electronics & Repair",
+      "customerId": "usr_cust_2",
+      "customerName": "Marcus Vance",
+      "customerAvatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&auto=format&fit=crop&q=80",
+      "rating": 4,
+      "title": "Fast MacBook battery replacement",
+      "comment": "Fixed my swollen laptop battery within 48 hours. Fair pricing and transparent diagnostic fee credited towards the final bill.",
+      "sentiment": "Positive",
+      "status": "Resolved",
+      "ownerReply": {
+        "text": "Thanks Marcus! We always aim to get critical work machines back into users hands safely.",
+        "repliedAt": "2026-03-08T18:00:00Z"
+      },
+      "createdAt": "2026-03-06T12:00:00Z"
+    },
+    {
+      "id": "rev_202",
+      "businessId": "biz_2",
+      "businessName": "TechPulse Electronics & Repair",
+      "customerId": "usr_cust_3",
+      "customerName": "Priya Patel",
+      "customerAvatar": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=150&auto=format&fit=crop&q=80",
+      "rating": 3,
+      "title": "Good repair work, communication could improve",
+      "comment": "The screen repair on my phone is flawless, but I didn't get an SMS when it was ready and had to call twice to confirm pickup.",
+      "sentiment": "Neutral",
+      "status": "In Progress",
+      "ownerReply": {
+        "text": "We apologize for the automated notification hiccup Priya! We have updated our dispatch webhook to ensure SMS arrives instantly.",
+        "repliedAt": "2026-03-19T09:30:00Z"
+      },
+      "createdAt": "2026-03-18T14:10:00Z"
+    },
+    {
+      "id": "rev_203",
+      "businessId": "biz_2",
+      "businessName": "TechPulse Electronics & Repair",
+      "customerId": "usr_cust_1",
+      "customerName": "Elena Rostova",
+      "customerAvatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=150&auto=format&fit=crop&q=80",
+      "rating": 5,
+      "title": "Saved my water-damaged iPad!",
+      "comment": "I dropped my tablet in water and other shops told me it was dead. Sarah and her team ultrasonic cleaned the logic board and salvaged all my photos. Lifesavers!",
+      "sentiment": "Positive",
+      "status": "New",
+      "ownerReply": null,
+      "createdAt": "2026-04-05T11:20:00Z"
+    },
+    {
+      "id": "rev_301",
+      "businessId": "biz_3",
+      "businessName": "Metro Wellness & Dental Clinic",
+      "customerId": "usr_cust_1",
+      "customerName": "Elena Rostova",
+      "customerAvatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=150&auto=format&fit=crop&q=80",
+      "rating": 5,
+      "title": "Painless cleaning and empathetic dental team",
+      "comment": "I usually experience extreme dental anxiety, but Dr. Kim and his hygienist explained every step gently. Zero pain and cutting-edge digital scans.",
+      "sentiment": "Positive",
+      "status": "Resolved",
+      "ownerReply": {
+        "text": "Thank you Elena! Making dental visits calm and anxiety-free is our number one mission.",
+        "repliedAt": "2026-03-26T16:00:00Z"
+      },
+      "createdAt": "2026-03-25T13:40:00Z"
+    },
+    {
+      "id": "rev_302",
+      "businessId": "biz_3",
+      "businessName": "Metro Wellness & Dental Clinic",
+      "customerId": "usr_cust_2",
+      "customerName": "Marcus Vance",
+      "customerAvatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&auto=format&fit=crop&q=80",
+      "rating": 5,
+      "title": "Thorough consultation and transparent billing",
+      "comment": "Clear treatment plan breakdown with insurance copay explained upfront before any procedure began. Modern clinic with zero wait times.",
+      "sentiment": "Positive",
+      "status": "Resolved",
+      "ownerReply": null,
+      "createdAt": "2026-03-29T10:00:00Z"
+    },
+    {
+      "id": "rev_303",
+      "businessId": "biz_3",
+      "businessName": "Metro Wellness & Dental Clinic",
+      "customerId": "usr_cust_3",
+      "customerName": "Priya Patel",
+      "customerAvatar": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=150&auto=format&fit=crop&q=80",
+      "rating": 5,
+      "title": "Excellent pediatric checkup for my daughter",
+      "comment": "The team was playful and comforting with my 6-year-old. She actually enjoyed her dental visit and received a little reward kit.",
+      "sentiment": "Positive",
+      "status": "New",
+      "ownerReply": null,
+      "createdAt": "2026-04-08T15:30:00Z"
+    }
+  ],
+  "notifications": [
+    {
+      "id": "notif_1",
+      "userId": "usr_owner_1",
+      "title": "New 5-Star Review Received",
+      "message": "Elena Rostova left a 5-star review for Apex Bistro & Cafe.",
+      "timestamp": "2026-04-02T19:40:00Z",
+      "read": false
+    },
+    {
+      "id": "notif_2",
+      "userId": "usr_owner_2",
+      "title": "New 5-Star Review Received",
+      "message": "Elena Rostova posted a review: 'Saved my water-damaged iPad!'.",
+      "timestamp": "2026-04-05T11:20:00Z",
+      "read": false
+    },
+    {
+      "id": "notif_3",
+      "userId": "usr_cust_1",
+      "title": "Owner Replied to Your Review",
+      "message": "Alex Rivera replied to your review at Apex Bistro & Cafe.",
+      "timestamp": "2026-03-12T11:00:00Z",
+      "read": true
+    }
+  ]
+}

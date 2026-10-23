@@ -1,0 +1,6 @@
+{
+  "name": "EngageEd",
+  "description": "EngageEd – Unified Customer Feedback Analytics Platform. Experience. Express. Improve.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
